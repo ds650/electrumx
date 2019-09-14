@@ -2949,11 +2949,8 @@ class Cryptoescudo(Coin):
     RPC_PORT = 61142
     REORG_LIMIT = 1000
     PEERS = [
-        'electrum1.cryptoescudo.org t s',
-        'electrum2.cryptoescudo.org t s',
-        'electrum3.cryptoescudo.org t s',
-        'electrum4.cryptoescudo.pt t s',
-        'electrum5.cryptoescudo.pt t s',
+        'electrum1.cryptoescudo.org t',
+        'electrum2.cryptoescudo.org t',
         'electrumx1.cryptoescudo.eu t s'
         
     ]

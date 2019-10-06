@@ -6,7 +6,7 @@ setuptools.setup(
     version=version,
     scripts=['electrumx_server', 'electrumx_rpc', 'electrumx_compact_history'],
     python_requires='>=3.6',
-    install_requires=['aiorpcX>=0.11,<0.15', 'attrs',
+    install_requires=['aiorpcX>=0.11,<0.16.2', 'attrs',
                       'plyvel', 'pylru', 'aiohttp>=3.3'],
     extras_require={
         'rocksdb': ['python-rocksdb>=0.6.9'],

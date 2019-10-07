@@ -2942,7 +2942,6 @@ class Cryptoescudo(Coin):
     WIF_BYTE = bytes.fromhex("1c")
     GENESIS_HASH = ('070390081e6d136d5714b9395d83807d'
                     '0b2859f98e49bb2fcd995467b6b65016')
-    DESERIALIZER = lib_tx.DeserializerSegWit
     TX_COUNT = 1687784
     TX_COUNT_HEIGHT = 1308573
     TX_PER_BLOCK = 1

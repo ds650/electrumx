@@ -2949,7 +2949,6 @@ class Cryptoescudo(Coin):
     REORG_LIMIT = 1000
     PEERS = [
         'electrum1.cryptoescudo.org t',
-        'electrum2.cryptoescudo.org t',
-        'electrumx1.cryptoescudo.eu t s'
+        'electrum2.cryptoescudo.org t'
         
     ]

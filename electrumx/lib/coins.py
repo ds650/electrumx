@@ -2950,6 +2950,5 @@ class Cryptoescudo(Coin):
     PEERS = [
         'electrum1.cryptoescudo.org t',
         'electrum2.cryptoescudo.org t',
-        'electrumx1.cryptoescudo.eu t s',
         
     ]
